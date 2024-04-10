@@ -11,3 +11,7 @@ reverse("1234abcd")
     
 
 # reverse("1234abcd")
+def demo():
+    print ("hello this is boy")
+
+demo()
