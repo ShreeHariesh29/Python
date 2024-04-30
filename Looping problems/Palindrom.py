@@ -1,8 +1,9 @@
 a = input("Enter a word to check palindrom or not = ")
 for x in a:
-  print(x) 
+  print(x," ",end="")
 for y in a[::-1]:
-  print(y) 
+  print(y," ",end="")
+print("\n")
 if x == y:
   print("its a palandrom")
 else:

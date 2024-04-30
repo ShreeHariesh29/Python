@@ -4,10 +4,10 @@
 # 5*4*3*2*1 = 120
 # 120 is the Factorial value of 5
 
-# a = int(input("Enter any number to check the Factorial Value\n num ="))
-a=5  
+num = int(input("Enter any number to check the Factorial Value\n num ="))
 sum=1
-for i in range(a, 0,-1):
+for i in range(num,0,-1):
     sum = sum*i
     print(i)
-print(sum)  
+print(sum)
+
