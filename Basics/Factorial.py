@@ -7,7 +7,7 @@
 num = int(input("Enter any number to check the Factorial Value\n num ="))
 sum=1
 for i in range(num,0,-1):
-    sum = sum*i
-    print(i)
-print(sum)
+    sum *= i
+    print(f"{i} *" if i > 1 else i, end=" ")
+print(" = ",sum)
 
