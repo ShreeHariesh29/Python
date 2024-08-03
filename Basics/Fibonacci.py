@@ -4,10 +4,10 @@ b = 1
 if(num == 1):
     print(a)
 else:
-    print(a)
-    print(b)
+    print(a,end=" ")
+    print(b,end=" ")
 for x in range(2,num):
     c = a+b
     a = b
     b = c
-    print(c)
+    print(c,end=" ")

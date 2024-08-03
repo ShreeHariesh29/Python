@@ -1,6 +1,6 @@
 email = input("Email = ")
 password = input("Password = ")
-DomainSpilting = email.split(".")
+DomainSpilting = email.split(".") #["AABBCC@gmail","com"]
 domain = "."+DomainSpilting[1]
 domainlist = [".com",".in",".org"]
 mailList = ["gmail","yahoo","email"]

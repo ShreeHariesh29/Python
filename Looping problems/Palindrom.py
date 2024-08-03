@@ -1,10 +1,7 @@
-a = input("Enter a word to check palindrom or not = ")
-for x in a:
-  print(x," ",end="")
-for y in a[::-1]:
-  print(y," ",end="")
-print("\n")
-if x == y:
-  print("its a palandrom")
+given_word = input("Enter a word to check palindrom or not = ")
+reversed_word = given_word[::-1]
+print("reversed word is ",reversed_word)
+if(given_word == reversed_word):
+  print("Its a palindrom")
 else:
   print("its not a palindrom")
